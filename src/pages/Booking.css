@@ -1,0 +1,38 @@
+.booking-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/booking-bg.jpg'); /* Adjust path */
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.booking-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.booking-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+  .booking-container {
+    padding: 1.5rem;
+  }
+
+  .booking-container h2 {
+    font-size: 1.5rem;
+  }
+}

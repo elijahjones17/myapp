@@ -1,0 +1,21 @@
+.specials {
+  padding: 2rem;
+  background-color: #edefee;
+  text-align: center;
+}
+
+.specials h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.specials-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
